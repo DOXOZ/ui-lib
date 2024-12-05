@@ -1,9 +1,49 @@
-.my-button {
+
+.my-button--primary {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: royalblue ;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.my-button--bordered {
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid royalblue;
+    color: royalblue;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-outs;
+    transition: 0.5s;
+}
+
+.my-button--bordered:hover {
+    background: royalblue;
+    color:white;
+}
+
+.my-button--primary:hover {
+    background: white;
+    color:royalblue;
+    border: 1px solid royalblue;
+}
+.my-button--lg {
+    padding: 10px 20px;
+    width:150px;
+    height:60px;
+}
+.my-button--md {
+    padding: 10px 20px;
+    width:100px;
+    height:40px;
+}
+.my-button--sm {
+    padding: 10px 20px;
+    width:50px;
+    height:20px;
 }

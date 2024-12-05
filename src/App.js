@@ -4,8 +4,8 @@ import {Button} from './components/Button';
 function App() {
   return (
     <div>
-    <Button variant="bordered">Clic</Button>
-    <Button>Click me</Button>
+    <Button varient="bordered">Clic</Button>
+    <Button varient="primary" size="lg">Click me</Button>
     </div>
   );
 };

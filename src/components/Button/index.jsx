@@ -1,7 +1,8 @@
 import "./index.css";
 
 export function Button(props){
-    const {varient,children} = props;
-
-    return <button className="my-button">{children}</button>;
+    const {size= "md",varient="primary",children} = props;
+    const ClassName = `my-button--${varient} my-button--${size}`;
+    return <button className={ClassName}>{children}</button>;
 }
+export default Button;
